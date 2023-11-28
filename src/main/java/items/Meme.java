@@ -11,7 +11,7 @@ public class Meme {
     public void addImage(Image image){
         var temp_view = new ImageView();
         temp_view.setImage(image);
-        temp_view.setFitHeight(190); temp_view.setFitWidth(292);
+        temp_view.setFitHeight(190); temp_view.setFitWidth(290);
         this.panel.getChildren().add(temp_view);
     }
 
