@@ -27,7 +27,7 @@ public class MemeBuilder implements IBuilder {
             "Если меня спросят\n «кто навредил мне больше всего?» \nответ будет - я сам..."
 
     );
-    private final List<Color> colors = List.of(Color.BLUE,Color.LIME,Color.ORANGE,Color.PURPLE,Color.BLACK);
+    private final List<Color> colors = List.of(Color.BLUE,Color.LIME,Color.ORANGE,Color.RED);
     @Override
     public void setImage(Image image) {
         this.meme.addImage(image);
@@ -46,7 +46,7 @@ public class MemeBuilder implements IBuilder {
 
     @Override
     public void setDesign(){
-        text.fontProperty().setValue(Font.font("Verdana", FontWeight.BOLD, 12));
+        text.fontProperty().setValue(Font.font("Calibri", 18));
     }
 
     @Override

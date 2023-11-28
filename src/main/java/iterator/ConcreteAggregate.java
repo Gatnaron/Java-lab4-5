@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ConcreteAggregate implements IAggregate {
-    private final String fileTopic = new File("src//main//resources//topic//").getAbsolutePath() + "\\";
+    private final String fileTopic = new File("src//main//resources//img//").getAbsolutePath() + "\\";
     private List<File> findImages(File dir){
         return Arrays.stream(dir.listFiles()).toList();
     }
