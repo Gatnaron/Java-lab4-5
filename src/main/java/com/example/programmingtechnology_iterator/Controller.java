@@ -81,9 +81,8 @@ public class Controller implements Initializable {
     private void setFadeStackOptions(){
         fade.setNode(this.meme.getPanel());
         fade.setCycleCount(1);
-        fade.setDuration(new Duration(1950));
-        fade.setFromValue(1.0);
-        fade.setToValue(0.0); fade.play();
+        fade.setDuration(new Duration(2950));
+        fade.play();
     }
 
     public void endLoop_Button(ActionEvent actionEvent) {
